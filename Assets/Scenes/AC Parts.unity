@@ -573,7 +573,7 @@ MonoBehaviour:
   ClampMax: 20
   CollisionLayers:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 0
   CollisionRadius: 0.1
   currentDistance: 7
 --- !u!81 &1148857125

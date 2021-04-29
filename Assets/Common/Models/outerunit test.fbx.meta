@@ -7,6 +7,16 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: Foam
+    second: {fileID: 2100000, guid: 4f197915510f5b4469860ee48c87f312, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: HexaMetal
+    second: {fileID: 2100000, guid: 7a2bc7ad92be0a74e8da117ed28ff876, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: Material #25
     second: {fileID: 2100000, guid: 8889e1210301ea94bb00b85ed83e6ad6, type: 2}
   - first:
@@ -134,6 +144,121 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: Mesh.004
     second: {fileID: 2100000, guid: bb9c985df752fc742afb6cd4fb8a5563, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal.002
+    second: {fileID: 2100000, guid: 7a2bc7ad92be0a74e8da117ed28ff876, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal.003
+    second: {fileID: 2100000, guid: 7a2bc7ad92be0a74e8da117ed28ff876, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal.004
+    second: {fileID: 2100000, guid: 7a2bc7ad92be0a74e8da117ed28ff876, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal.005
+    second: {fileID: 2100000, guid: 7a2bc7ad92be0a74e8da117ed28ff876, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal.006
+    second: {fileID: 2100000, guid: 7a2bc7ad92be0a74e8da117ed28ff876, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal.007
+    second: {fileID: 2100000, guid: 7a2bc7ad92be0a74e8da117ed28ff876, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal.008
+    second: {fileID: 2100000, guid: 7a2bc7ad92be0a74e8da117ed28ff876, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal.009
+    second: {fileID: 2100000, guid: 7a2bc7ad92be0a74e8da117ed28ff876, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal.010
+    second: {fileID: 2100000, guid: 7a2bc7ad92be0a74e8da117ed28ff876, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal.011
+    second: {fileID: 2100000, guid: 7a2bc7ad92be0a74e8da117ed28ff876, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal.012
+    second: {fileID: 2100000, guid: 7a2bc7ad92be0a74e8da117ed28ff876, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal.013
+    second: {fileID: 2100000, guid: 7a2bc7ad92be0a74e8da117ed28ff876, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plastic
+    second: {fileID: 2100000, guid: 4f197915510f5b4469860ee48c87f312, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plastic.001
+    second: {fileID: 2100000, guid: 4f197915510f5b4469860ee48c87f312, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plastic.002
+    second: {fileID: 2100000, guid: 4f197915510f5b4469860ee48c87f312, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plastic.003
+    second: {fileID: 2100000, guid: 4f197915510f5b4469860ee48c87f312, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plastic.004
+    second: {fileID: 2100000, guid: 4f197915510f5b4469860ee48c87f312, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plastic.005
+    second: {fileID: 2100000, guid: 4f197915510f5b4469860ee48c87f312, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plastic.006
+    second: {fileID: 2100000, guid: 4f197915510f5b4469860ee48c87f312, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plastic.007
+    second: {fileID: 2100000, guid: 4f197915510f5b4469860ee48c87f312, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: metal
+    second: {fileID: 2100000, guid: 7a2bc7ad92be0a74e8da117ed28ff876, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: metal.001
+    second: {fileID: 2100000, guid: 7a2bc7ad92be0a74e8da117ed28ff876, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: plastic
+    second: {fileID: 2100000, guid: 4f197915510f5b4469860ee48c87f312, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0

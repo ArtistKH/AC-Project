@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &7547561196581276875
+--- !u!1 &3597741285713911040
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,9 +8,9 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 4178126690931043350}
-  - component: {fileID: 4281296889646182882}
-  - component: {fileID: 3145429250400255790}
+  - component: {fileID: 6964918385167973853}
+  - component: {fileID: 7077922065924988969}
+  - component: {fileID: 8283566074402254565}
   m_Layer: 0
   m_Name: Valves Panel
   m_TagString: Untagged
@@ -18,37 +18,35 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4178126690931043350
+--- !u!4 &6964918385167973853
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7547561196581276875}
-  m_LocalRotation: {x: 0.7071069, y: 0, z: -0, w: 0.7071067}
-  m_LocalPosition: {x: -1.2841321, y: 0.38798007, z: 0.4693371}
+  m_GameObject: {fileID: 3597741285713911040}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -3.1216976e-15, w: 0.7071067}
+  m_LocalPosition: {x: -1.284132, y: 0.38798004, z: 0.469337}
   m_LocalScale: {x: 0.02540001, y: 0.02540001, z: 0.02540001}
-  m_Children:
-  - {fileID: 6736970369652001883}
-  - {fileID: 7218705808841789775}
+  m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!33 &4281296889646182882
+--- !u!33 &7077922065924988969
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7547561196581276875}
+  m_GameObject: {fileID: 3597741285713911040}
   m_Mesh: {fileID: -3281481363732934313, guid: 341092cc29c0752418da0ea80064a387, type: 3}
---- !u!23 &3145429250400255790
+--- !u!23 &8283566074402254565
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7547561196581276875}
+  m_GameObject: {fileID: 3597741285713911040}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -81,153 +79,3 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!1001 &2742292758750510497
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 4178126690931043350}
-    m_Modifications:
-    - target: {fileID: 3931383809449655599, guid: ee4a5791a6e596c4ba2e417358bab63f,
-        type: 3}
-      propertyPath: m_Name
-      value: Gas line Flare Valve
-      objectReference: {fileID: 0}
-    - target: {fileID: 8894629499426288122, guid: ee4a5791a6e596c4ba2e417358bab63f,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -9.819584
-      objectReference: {fileID: 0}
-    - target: {fileID: 8894629499426288122, guid: ee4a5791a6e596c4ba2e417358bab63f,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.99638724
-      objectReference: {fileID: 0}
-    - target: {fileID: 8894629499426288122, guid: ee4a5791a6e596c4ba2e417358bab63f,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 10.759184
-      objectReference: {fileID: 0}
-    - target: {fileID: 8894629499426288122, guid: ee4a5791a6e596c4ba2e417358bab63f,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0.38268346
-      objectReference: {fileID: 0}
-    - target: {fileID: 8894629499426288122, guid: ee4a5791a6e596c4ba2e417358bab63f,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8894629499426288122, guid: ee4a5791a6e596c4ba2e417358bab63f,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8894629499426288122, guid: ee4a5791a6e596c4ba2e417358bab63f,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.9238795
-      objectReference: {fileID: 0}
-    - target: {fileID: 8894629499426288122, guid: ee4a5791a6e596c4ba2e417358bab63f,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8894629499426288122, guid: ee4a5791a6e596c4ba2e417358bab63f,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8894629499426288122, guid: ee4a5791a6e596c4ba2e417358bab63f,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8894629499426288122, guid: ee4a5791a6e596c4ba2e417358bab63f,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: ee4a5791a6e596c4ba2e417358bab63f, type: 3}
---- !u!4 &6736970369652001883 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 8894629499426288122, guid: ee4a5791a6e596c4ba2e417358bab63f,
-    type: 3}
-  m_PrefabInstance: {fileID: 2742292758750510497}
-  m_PrefabAsset: {fileID: 0}
---- !u!1001 &4426894593602415058
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 4178126690931043350}
-    m_Modifications:
-    - target: {fileID: 4096387049352578648, guid: 160a46db85728194ca6282066b2f4094,
-        type: 3}
-      propertyPath: m_Name
-      value: liquid line Flare Valve + Service valve port
-      objectReference: {fileID: 0}
-    - target: {fileID: 6431847813546817693, guid: 160a46db85728194ca6282066b2f4094,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -9.940357
-      objectReference: {fileID: 0}
-    - target: {fileID: 6431847813546817693, guid: 160a46db85728194ca6282066b2f4094,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.28957462
-      objectReference: {fileID: 0}
-    - target: {fileID: 6431847813546817693, guid: 160a46db85728194ca6282066b2f4094,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -11.902811
-      objectReference: {fileID: 0}
-    - target: {fileID: 6431847813546817693, guid: 160a46db85728194ca6282066b2f4094,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0.38268346
-      objectReference: {fileID: 0}
-    - target: {fileID: 6431847813546817693, guid: 160a46db85728194ca6282066b2f4094,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6431847813546817693, guid: 160a46db85728194ca6282066b2f4094,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6431847813546817693, guid: 160a46db85728194ca6282066b2f4094,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.9238795
-      objectReference: {fileID: 0}
-    - target: {fileID: 6431847813546817693, guid: 160a46db85728194ca6282066b2f4094,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6431847813546817693, guid: 160a46db85728194ca6282066b2f4094,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6431847813546817693, guid: 160a46db85728194ca6282066b2f4094,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6431847813546817693, guid: 160a46db85728194ca6282066b2f4094,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 160a46db85728194ca6282066b2f4094, type: 3}
---- !u!4 &7218705808841789775 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 6431847813546817693, guid: 160a46db85728194ca6282066b2f4094,
-    type: 3}
-  m_PrefabInstance: {fileID: 4426894593602415058}
-  m_PrefabAsset: {fileID: 0}

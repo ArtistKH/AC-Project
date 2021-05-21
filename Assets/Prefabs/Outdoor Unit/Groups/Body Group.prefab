@@ -734,7 +734,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3293798292049720306}
-  m_LocalRotation: {x: -0.7071067, y: -0.000000030908616, z: 0.000000030908623, w: 0.7071068}
+  m_LocalRotation: {x: -0.7069834, y: 0, z: 0, w: 0.7072302}
   m_LocalPosition: {x: -0.9202432, y: 2.9370193, z: -0.08479446}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -776,7 +776,7 @@ Transform:
   - {fileID: 6803076367126391596}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -89.98, y: 0, z: 0}
 --- !u!1 &3571627780147706999
 GameObject:
   m_ObjectHideFlags: 0
@@ -2503,6 +2503,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5951006450807599219, guid: 67cf8899495b7044e8b9d9eba42901c0,
+        type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5951006450807599219, guid: 67cf8899495b7044e8b9d9eba42901c0,
+        type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 435aa67d2c2a4cf429e647858ecb8e27, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 67cf8899495b7044e8b9d9eba42901c0, type: 3}
 --- !u!4 &3338623133303404720 stripped
@@ -2518,6 +2528,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8135399180826815686}
     m_Modifications:
+    - target: {fileID: 593422206424153908, guid: cf9c065f0cf2e924ba4b83d8ea7dcf78,
+        type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 593422206424153908, guid: cf9c065f0cf2e924ba4b83d8ea7dcf78,
+        type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 435aa67d2c2a4cf429e647858ecb8e27, type: 2}
     - target: {fileID: 3759930098875633390, guid: cf9c065f0cf2e924ba4b83d8ea7dcf78,
         type: 3}
       propertyPath: m_Name
@@ -2748,6 +2768,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Outdoor Unit left Side Panel
       objectReference: {fileID: 0}
+    - target: {fileID: 6547969595791341826, guid: 0fabec0216d9a6a4faa80e3fbaa1c528,
+        type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6547969595791341826, guid: 0fabec0216d9a6a4faa80e3fbaa1c528,
+        type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 435aa67d2c2a4cf429e647858ecb8e27, type: 2}
     - target: {fileID: 6905406967646209162, guid: 0fabec0216d9a6a4faa80e3fbaa1c528,
         type: 3}
       propertyPath: m_LocalPosition.x

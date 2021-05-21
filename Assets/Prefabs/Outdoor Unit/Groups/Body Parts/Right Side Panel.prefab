@@ -25,14 +25,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5810524452921849506}
-  m_LocalRotation: {x: 0.7071068, y: 0, z: -0, w: 0.7071067}
+  m_LocalRotation: {x: 0.7069834, y: 0, z: 0, w: 0.7072302}
   m_LocalPosition: {x: -2.378576, y: 0.37113282, z: 0.23329079}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 8840980529617130735}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 89.98, y: 0, z: 0}
 --- !u!33 &7979434684986276813
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -59,6 +59,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
+  - {fileID: 2100000, guid: 435aa67d2c2a4cf429e647858ecb8e27, type: 2}
   - {fileID: 2100000, guid: 435aa67d2c2a4cf429e647858ecb8e27, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
@@ -147,6 +148,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Outdoor Unit Cover for Electric Wiring
       objectReference: {fileID: 0}
+    - target: {fileID: 6838258815749806350, guid: cec6dd9c9c308084899a25d8d18620f5,
+        type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6838258815749806350, guid: cec6dd9c9c308084899a25d8d18620f5,
+        type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 435aa67d2c2a4cf429e647858ecb8e27, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cec6dd9c9c308084899a25d8d18620f5, type: 3}
 --- !u!4 &8840980529617130735 stripped
